@@ -1,0 +1,24 @@
+{
+
+    "manifest_version": 2,
+    "name": "Cite This Website",
+    "version": "1.0",
+  
+    "description": "A simple extension that creates website citations.",
+    "homepage_url": "https://github.com/leong34/CiteThisWebsite",
+    "icons": {
+      "48": "icons/logo.png"
+    },
+  
+    "permissions": [
+      "activeTab"
+    ],
+  
+    "browser_action": {
+      "default_icon": "icons/logo.png",
+      "default_title": "Cite This Website",
+      "default_popup": "popup/main.html"
+    }
+  
+}
+  
